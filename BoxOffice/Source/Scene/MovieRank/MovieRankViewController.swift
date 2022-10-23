@@ -15,7 +15,7 @@ final class MovieRankViewController: UIViewController {
     private var dataSource: UICollectionViewDiffableDataSource<FirstSection, SimpleMovieInfoEntity>!
     private var dailyMovieList: [SimpleMovieInfoEntity] = []
     private var weekendMovieList: [SimpleMovieInfoEntity] = []
-    private var weekDay: [String] = ["월", "화", "수", "목", "금"]
+    private var weekDay: [String] = ["월", "화", "수", "목", "금", "토", "일"]
     private var sectionList: [FirstSectionAndTitle] = [("일별 박스오피스 순위", .daily), ("주말 박스오피스 순위", .weekend)]
     
     
